@@ -19,7 +19,7 @@ const Header = () => {
     <nav className="py-2 lg:py-4 fixed w-screen md:w-full z-10 shadow">
       <div className="container mx-auto flex justify-between items-center px-4">
         <a href="/">
-          <h2 className="font-poppins font-medium text-4xl px-2">RIEME</h2>
+          <h2 className="font-poppins font-medium text-4xl px-2 text-white">RIEME</h2>
         </a>
 
         {/* Desktop menu */}
@@ -28,14 +28,14 @@ const Header = () => {
             <li key={index}>
               <a
                 href={item.href}
-                className="font-poppins text-sm hover:text-green duration-300 uppercase"
+                className="font-poppins text-sm hover:text-green duration-300 uppercase text-white"
               >
                 {item.name}
               </a>
             </li>
           ))}
         </ul>
-        <div className="hidden sm:flex gap-x-4 items-center text-lg">
+        <div className="hidden sm:flex gap-x-4 items-center text-lg text-white">
           <FaXTwitter className="hover:text-green duration-300 cursor-pointer" />
           <FaFacebookF className="hover:text-green duration-300 cursor-pointer" />
         </div>
