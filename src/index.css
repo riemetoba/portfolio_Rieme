@@ -4,3 +4,7 @@
     @apply max-w-480 mx-auto
   }
 }
+@theme {
+  --font-poppins: "Poppins", sans-serif; 
+   --color-green: #008000; 
+}
