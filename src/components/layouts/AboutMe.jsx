@@ -29,11 +29,11 @@ const AboutMe = () => {
             I'm <span className="text-green">Rieme Hasan,</span> a Front-End
             Developer
           </h3>
-          <p className="text-base font-poppins leading-[25px]">
+          <p className="text-base font-poppins leading-6.25">
             I build modern, responsive, and visually appealing websites as a frontend developer, focusing on clean code and smooth user experience. I use the latest technologies to create fast, scalable, and user-friendly interfaces.
           </p>
           <br />
-          <p className="text-base font-poppins leading-[25px]">
+          <p className="text-base font-poppins leading-6.25">
             I deliver projects on time while meeting both user needs and business goals. From simple pages to complex apps, I turn ideas into functional and engaging digital experiences.
           </p>
         </div>
