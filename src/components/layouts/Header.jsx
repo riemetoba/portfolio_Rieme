@@ -55,7 +55,7 @@ const Header = () => {
           isOpen ? "max-h-96 mt-4" : "max-h-0"
         }`}
       >
-        <ul className="flex flex-col items-center gap-y-4 py-4 bg-white border-t">
+        <ul className="flex flex-col items-center gap-y-4 py-4 bg-white">
           {navItems.map((item, index) => (
             <li key={index}>
               <a

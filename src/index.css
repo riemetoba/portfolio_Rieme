@@ -3,8 +3,12 @@
   .container {
     @apply max-w-480 mx-auto
   }
+  .sub-conatiner {
+    @apply max-w-350 mx-auto
+  }
 }
 @theme {
   --font-poppins: "Poppins", sans-serif; 
    --color-green: #20c997; 
+   --color-gray: #f3f4f6; 
 }
