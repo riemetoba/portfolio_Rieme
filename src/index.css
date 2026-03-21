@@ -1,9 +1,6 @@
 @import "tailwindcss";
 @layer utilities{
   .container {
-    @apply max-w-480 mx-auto
-  }
-  .sub-conatiner {
     @apply max-w-350 mx-auto
   }
 }

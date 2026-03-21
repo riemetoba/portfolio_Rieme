@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section className="sub-container py-16">
+    <section className="container py-16">
       <div className="relative py-10 text-center overflow-hidden">
 
         <h1 className="absolute bottom-8 inset-0 flex items-center justify-center 
@@ -19,6 +19,14 @@ const AboutMe = () => {
           </div>
         </div>
 
+      </div>
+      {/* Content part  */}
+      <div className="flex items-center py-15">
+        <div className="w-[60%]">
+            <h3 className="font-poppins text-3xl font-semibold mb-6">I'm <span className="text-green">Rieme Hasan,</span> a Front-End Developer</h3>
+            <p className="text-base font-poppins">I help build modern, responsive, and high-performing user interfaces that elevate digital experiences. As a frontend developer, I specialize in crafting clean, scalable, and user-friendly web applications using the latest technologies. Numerous clients and projects have benefited from my attention to detail, performance optimization, and pixel-perfect design implementation.</p> <br />
+            <p className="text-base font-poppins">I focus on delivering visually appealing and functional interfaces within deadlines, ensuring every project aligns with user needs and business goals. From landing pages to complex web apps, I transform ideas into seamless digital experiences while maintaining code quality and best practices.</p>
+        </div>
       </div>
     </section>
   );
