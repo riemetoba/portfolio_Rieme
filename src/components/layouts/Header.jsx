@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaXTwitter, FaFacebookF } from "react-icons/fa6";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const navItems = [
     { name: "Home", href: "#" },
@@ -14,9 +16,22 @@ const Header = () => {
     { name: "Blog", href: "#blog" },
     { name: "Contact", href: "#contact" },
   ];
+  // =================>
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <nav className="py-2 lg:py-4 fixed w-screen md:w-full z-10 shadow">
+    <nav
+      className={`py-2 lg:py-4 fixed w-screen md:w-full z-10 transition-all duration-300 ${
+        isScrolled ? "bg-black/70 backdrop-blur-md shadow-lg" : "bg-transparent"
+      }`}
+    >
       <div className="mx-auto flex justify-between items-center px-4">
         <a href="/">
           <h2 className="font-medium text-4xl px-2 text-white">RIEME</h2>
@@ -67,12 +82,11 @@ const Header = () => {
               </a>
             </li>
           ))}
-           <div className="flex gap-x-4 items-center text-lg mt-5">
-          <FaXTwitter className="hover:text-green duration-300 cursor-pointer" />
-          <FaFacebookF className="hover:text-green duration-300 cursor-pointer" />
-        </div>
+          <div className="flex gap-x-4 items-center text-lg mt-5">
+            <FaXTwitter className="hover:text-green duration-300 cursor-pointer" />
+            <FaFacebookF className="hover:text-green duration-300 cursor-pointer" />
+          </div>
         </ul>
-        
       </div>
     </nav>
   );
