@@ -5,7 +5,6 @@ import { FaXTwitter, FaFacebookF } from "react-icons/fa6";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const [isScrolled, setIsScrolled] = useState(false);
 
   const navItems = [
@@ -16,7 +15,6 @@ const Header = () => {
     { name: "Blog", href: "#blog" },
     { name: "Contact", href: "#contact" },
   ];
-  // =================>
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -60,7 +58,7 @@ const Header = () => {
           onClick={() => setIsOpen(!isOpen)}
           className="sm:hidden text-2xl px-2"
         >
-          {isOpen ? <IoMdClose /> : <GiHamburgerMenu />}
+          {isOpen ? <IoMdClose className="text-white"/> : <GiHamburgerMenu className="text-white"/>}
         </button>
       </div>
 
@@ -70,7 +68,7 @@ const Header = () => {
           isOpen ? "max-h-96 mt-4" : "max-h-0"
         }`}
       >
-        <ul className="flex flex-col items-center gap-y-4 py-4 bg-white">
+        <ul className="flex flex-col items-center gap-y-4 py-4 bg-black/70 text-white">
           {navItems.map((item, index) => (
             <li key={index}>
               <a
