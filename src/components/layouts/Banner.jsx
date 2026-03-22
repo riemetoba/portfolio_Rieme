@@ -35,11 +35,6 @@ const Banner = () => {
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 animate-bounce">
         <IoIosArrowDown className="text-white h-6 w-6 cursor-pointer" />
       </div>
-
-      {/* Setting icon */}
-      <div className="absolute top-1/2 right-0 -translate-y-1/2 bg-[#343a40] p-3 rounded-l-md cursor-pointer hidden md:block z-20">
-        <IoSettingsSharp className="h-6 w-6 text-white" />
-      </div>
     </section>
   );
 };
