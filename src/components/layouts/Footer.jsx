@@ -23,7 +23,7 @@ const Footer = () => {
         </h1>
 
         <div className="relative z-10">
-          <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-[#1B1B1B]">
+          <h2 className="text-3xl md:text-4xl font-semibold text-[#1B1B1B]">
             Get in Touch
           </h2>
 
@@ -35,11 +35,11 @@ const Footer = () => {
       {/* Title text  */}
           <div
             className={
-              "flex flex-col lg:flex-row lg:justify-between lg:items-start px-5 lg:px-0"
+              "flex flex-col lg:flex-row lg:justify-between lg:items-start px-5 lg:px-0 lg:mt-8"
             }
           >
             <div className="bg-[#ffffff] w-full lg:w-170 h-auto lg:h-90.5 px-10 lg:px-6 py-5 drop-shadow-xl/50">
-              <p className="font-inter uppercase text-[12px] text-[#090A0C] font-bold">
+              <p className="uppercase text-[12px] text-[#090A0C] font-bold">
                 say something
               </p>
               <div className="flex items-baseline justify-between gap-x-6 mt-10">
@@ -64,7 +64,7 @@ const Footer = () => {
                 placeholder="Your Message *"
                 className="border-b outline-none border-b-[#CCCCCC] hover:border-b-org duration-300 w-full mt-10 lg:mt-15"
               />
-              <button className=" mt-8 bg-green hover:bg-[#29AB87] text-lg font-poppins text-white font-medium px-9 py-3 rounded-full shadow-md transition duration-300 cursor-pointer">
+              <button className=" mt-8 bg-green hover:bg-[#29AB87] text-lg text-white font-medium px-9 py-3 rounded-full shadow-md transition duration-300 cursor-pointer">
                 Send Message
               </button>
             </div>
@@ -72,8 +72,8 @@ const Footer = () => {
               <div className="w-full lg:w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
                   <SlLocationPin className="text-green text-2xl" />
                 <div className="">
-                  <h5 className="text-base font-inter font-medium">My Address</h5>
-                  <p className="text-sm font-inter text-[#555A64]">
+                  <h5 className="text-base font-medium">My Address</h5>
+                  <p className="text-sm text-[#555A64]">
                     Dhaka, Bangladesh
                   </p>
                 </div>
@@ -81,8 +81,8 @@ const Footer = () => {
               <div className="w-full lg:w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
                   <TfiMobile className="text-green text-2xl" />
                 <div className="">
-                  <h5 className="text-base font-inter font-medium">My Phone</h5>
-                  <p className="text-sm font-inter text-[#555A64]">
+                  <h5 className="text-base font-medium">My Phone</h5>
+                  <p className="text-sm text-[#555A64]">
                     +8801577043696
                   </p>
                 </div>
@@ -90,8 +90,8 @@ const Footer = () => {
               <div className="w-full lg:w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
                   <TfiEmail className="text-green text-[22px]" />
                 <div className="">
-                  <h5 className="text-base font-inter font-medium">My Email</h5>
-                  <p className="text-sm font-inter text-[#555A64]">
+                  <h5 className="text-base font-medium">My Email</h5>
+                  <p className="text-sm text-[#555A64]">
                     riemehasan06@gmail.com
                   </p>
                 </div>
@@ -101,25 +101,25 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <div className="bg-black py-8">
+      <div className="py-8">
         <div className="container">
           <div
             className={
-              "flex flex-col lg:flex-row lg:justify-between text-[#555A64] px-5 lg:px-0"
+              "flex flex-col lg:flex-row lg:justify-between text-[#2A3439] px-5 lg:px-0"
             }
           >
             <div className="flex items-center justify-center gap-x-5 text-2xl">
               <a href="https://github.com/riemetoba">
-                <FaGithub />
+                <FaGithub className="hover:text-green duration-300 cursor-pointer"/>
               </a>
               <a href="https://www.facebook.com/profile.php?id=100016533453052">
-                <FaFacebook />
+                <FaFacebook className="hover:text-green duration-300 cursor-pointer"/>
               </a>
               <a href="https://www.linkedin.com/in/rieme-hasan-291767398">
-                <FaLinkedin />
+                <FaLinkedin className="hover:text-green duration-300 cursor-pointer"/>
               </a>
             </div>
-            <div className="flex items-center justify-center gap-x-1 py-5 lg:py-0 text-sm lg:text-base font-medium font-inter">
+            <div className="flex items-center justify-center gap-x-1 py-5 lg:py-0 text-sm lg:text-base font-medium">
               <FaRegCopyright />
               <p>2026 copyright all right reserved</p>
             </div>

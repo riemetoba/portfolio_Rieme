@@ -12,7 +12,7 @@ const AboutMe = () => {
         </h1>
 
         <div className="relative z-10">
-          <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-[#1B1B1B]">
+          <h2 className="text-3xl md:text-4xl font-semibold text-[#1B1B1B]">
             Know Me More
           </h2>
 
@@ -25,46 +25,46 @@ const AboutMe = () => {
       {/* Content part  */}
       <div className="flex items-start py-15 gap-x-10">
         <div className="w-[60%]">
-          <h3 className="font-poppins text-3xl font-semibold mb-6">
+          <h3 className="text-3xl font-semibold mb-6">
             I'm <span className="text-green">Rieme Hasan,</span> a Front-End
             Developer
           </h3>
-          <p className="text-base font-poppins leading-6.25">
+          <p className="text-base leading-6.25">
             I build modern, responsive, and visually appealing websites as a frontend developer, focusing on clean code and smooth user experience. I use the latest technologies to create fast, scalable, and user-friendly interfaces.
           </p>
           <br />
-          <p className="text-base font-poppins leading-6.25">
+          <p className="text-base leading-6.25">
             I deliver projects on time while meeting both user needs and business goals. From simple pages to complex apps, I turn ideas into functional and engaging digital experiences.
           </p>
         </div>
         <div className="w-[40%]">
         {/* Name */}
-      <div className="py-3 border-b border-gray-300 font-poppins">
+      <div className="py-3 border-b border-gray-300">
         <span className="font-semibold text-gray-800">Name:</span>
         <span className="text-gray-600 ml-2">Rieme Hasan</span>
       </div>
 
       {/* Email */}
-      <div className="py-3 border-b border-gray-300 font-poppins">
+      <div className="py-3 border-b border-gray-300">
         <span className="font-semibold text-gray-800">Email:</span>
         <span className="text-green ml-2">riemehasan06@gmail.com</span>
       </div>
 
       {/* Age */}
-      <div className="py-3 border-b border-gray-300 font-poppins">
+      <div className="py-3 border-b border-gray-300">
         <span className="font-semibold text-gray-800">Age:</span>
         <span className="text-gray-600 ml-2">28</span>
       </div>
 
       {/* From */}
-      <div className="py-3 font-poppins">
+      <div className="py-3">
         <span className="font-semibold text-gray-800">From:</span>
         <span className="text-gray-600 ml-2">Dhaka, Bangladesh</span>
       </div>
 
       {/* Button */}
       <div className="mt-6">
-        <button className="bg-green hover:bg-[#29AB87] text-lg font-poppins text-white font-medium px-9 py-3 rounded-full shadow-md transition duration-300 cursor-pointer">
+        <button className="bg-green hover:bg-[#29AB87] text-lg text-white font-medium px-9 py-3 rounded-full shadow-md transition duration-300 cursor-pointer">
           Download CV
         </button>
       </div>

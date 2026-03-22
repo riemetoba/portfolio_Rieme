@@ -19,7 +19,7 @@ const Header = () => {
     <nav className="py-2 lg:py-4 fixed w-screen md:w-full z-10 shadow">
       <div className="mx-auto flex justify-between items-center px-4">
         <a href="/">
-          <h2 className="font-poppins font-medium text-4xl px-2 text-white">RIEME</h2>
+          <h2 className="font-medium text-4xl px-2 text-white">RIEME</h2>
         </a>
 
         {/* Desktop menu */}
@@ -28,7 +28,7 @@ const Header = () => {
             <li key={index}>
               <a
                 href={item.href}
-                className="font-poppins text-sm hover:text-green duration-300 uppercase text-white"
+                className="text-sm hover:text-green duration-300 uppercase text-white"
               >
                 {item.name}
               </a>
@@ -61,7 +61,7 @@ const Header = () => {
               <a
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className="font-poppins text-sm hover:text-green duration-300 uppercase"
+                className="text-sm hover:text-green duration-300 uppercase"
               >
                 {item.name}
               </a>
