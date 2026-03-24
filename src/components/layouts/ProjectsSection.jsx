@@ -138,10 +138,10 @@ const ProjectsSection = () => {
               <div className="absolute top-0 left-0 w-0 h-1 bg-org transition-all duration-300 group-hover:w-full"></div>
 
               <h3 className="text-2xl font-bold text-[#090A0C] mb-3 group-hover:text-org transition-colors duration-300">
-                Website
+                Portfolio
               </h3>
               <p className="text-[#555A64] text-[15px] leading-relaxed mb-6">
-                Immersive gaming hub with a premium UI and seamless navigation.
+                Modern digital presence designed to showcase creative expertise with integrated service sections and a fluid contact flow.
               </p>
 
               {/* Tags */}
@@ -171,7 +171,7 @@ const ProjectsSection = () => {
 
               {/* Category Badge */}
               <div className="absolute top-5 left-5 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full text-xs font-bold text-[#090A0C] uppercase tracking-wide shadow-sm z-20">
-                Tailwind
+                React Tailwind
               </div>
 
               {/* Hover Overlay Buttons */}
@@ -202,10 +202,11 @@ const ProjectsSection = () => {
               <div className="absolute top-0 left-0 w-0 h-1 bg-org transition-all duration-300 group-hover:w-full"></div>
 
               <h3 className="text-2xl font-bold text-[#090A0C] mb-3 group-hover:text-org transition-colors duration-300">
-                Website
+                Website<span> (Team Project)</span>
               </h3>
               <p className="text-[#555A64] text-[15px] leading-relaxed mb-6">
-                Feature-rich online store with dynamic cart and checkout systems.
+                
+Collaborative IT portal with a streamlined enrollment system and integrated curriculum management for a seamless student experience.
               </p>
 
               {/* Tags */}
@@ -225,15 +226,14 @@ const ProjectsSection = () => {
           {/* ================= Project 3 End ================= */}
         </div>
         {/* Bottom Button */}
-        <div className="text-center mt-20">
+       <div className="text-center mt-16">
           <a
             href="https://github.com/riemetoba"
             target="_blank"
-            rel="noreferrer"
-            className="group inline-flex items-center gap-2 py-3 px-6 mt-9 bg-org text-[#ffffff] font-inter font-medium uppercase hover:text-white hover:bg-black duration-300"
+            rel="noopener noreferrer"
+            className="text-sm font-semibold border-b-[1.5px] pb-0.5 hover:text-green hover:border-green transition-colors"
           >
-            View All Projects
-            <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
+            See all projects on GitHub →
           </a>
         </div>
     </section>

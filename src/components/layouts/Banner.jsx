@@ -30,14 +30,9 @@ const Banner = () => {
           based in Dhaka, Bangladesh.
         </p>
 
-        <button className="px-10 py-3 border-2 border-green text-green rounded-full font-semibold text-lg hover:bg-green hover:text-white transition-all duration-300 ease-in-out">
+        <button className="px-10 py-3 border-2 border-green text-green rounded-full font-semibold text-lg hover:bg-green hover:text-white transition-all duration-300 ease-in-out cursor-pointer">
           Hire Me
         </button>
-      </div>
-
-      {/* Down arrow */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 animate-bounce">
-        <IoIosArrowDown className="text-white h-6 w-6 cursor-pointer" />
       </div>
     </section>
   );

@@ -1,9 +1,6 @@
-import React from 'react';
-// Category Icons
 import { FiLayout, FiTool, FiDatabase, FiCloud, FiBookOpen } from 'react-icons/fi';
-// Skill Icons
-import { FaReact, FaHtml5, FaGithub, FaGitAlt, FaNpm } from 'react-icons/fa';
-import { SiTailwindcss, SiJavascript, SiBootstrap, SiVercel, SiFigma, SiFirebase, SiNetlify, SiPostman } from 'react-icons/si';
+import { FaReact, FaHtml5, FaGithub, FaGitAlt, FaNpm, FaBootstrap  } from 'react-icons/fa';
+import { SiTailwindcss, SiJavascript, SiVercel, SiFigma, SiFirebase, SiPostman } from 'react-icons/si';
 import { MdDevices, MdSpeed } from 'react-icons/md';
 import { TbApi, TbBrandRedux } from 'react-icons/tb';
 
@@ -18,6 +15,7 @@ const TechStack = () => {
         { name: "JavaScript", icon: <SiJavascript className="text-[#F7DF1E]" /> },
         { name: "React.js", icon: <FaReact className="text-[#61DAFB]" /> },
         { name: "Tailwind", icon: <SiTailwindcss className="text-[#06B6D4]" /> },
+        { name: "Bootstrap", icon: <FaBootstrap  className="text-[#ac5beb]" /> },
         { name: "HTML/CSS", icon: <FaHtml5 className="text-[#E34F26]" /> },
         { name: "Redux", icon: <TbBrandRedux  className="text-[#8F00FF]" /> }
       ]
