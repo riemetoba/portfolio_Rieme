@@ -1,5 +1,4 @@
-import Typewriter from "typewriter-effect";
-import { IoSettingsSharp } from "react-icons/io5";
+import { Typewriter } from "react-simple-typewriter"
 import { IoIosArrowDown } from "react-icons/io";
 const Banner = () => {
   return (
@@ -19,9 +18,17 @@ const Banner = () => {
         <h3 className="text-xl md:text-2xl font-medium mb-4 tracking-wide text-[#F5F5F5]">
           Welcome
         </h3>
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 flex items-center justify-center">
-          I'm Rieme Hasan
-        </h1>
+        <h1 className="text-2xl md:text-[40px] lg:text-[72px] font-bold text-white mb-5"><span className="mr-3">I'm</span>
+                            <Typewriter
+                                words={['Rieme Hasan', 'a Front-End Developer']}
+                                loop={true}
+                                cursor
+                                cursorStyle='|'
+                                typeSpeed={100}
+                                deleteSpeed={80}
+                                delaySpeed={1500}
+                            />
+                        </h1>
         <p className="text-lg md:text-xl text-[#F5F5F5] mb-10 max-w-2xl mx-auto">
           based in Dhaka, Bangladesh.
         </p>
