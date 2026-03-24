@@ -7,6 +7,7 @@
 @theme {
    --color-green: #20c997; 
    --color-gray: #f3f4f6; 
+   --font-poppins: "Poppins", sans-serif;
 }
 
 body {

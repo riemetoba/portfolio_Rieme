@@ -11,8 +11,8 @@ const Banner = () => {
       </div>
       {/* Bg and overlay */}
       {/* ============>  */}
-      <div className="relative z-10 text-center text-white px-4">
-        <h3 className="text-xl md:text-2xl font-medium mb-4 tracking-wide text-[#F5F5F5]">
+      <div className="relative z-10 text-center text-white px-4 font-poppins">
+        <h3 className="text-xl md:text-2xl font-medium mb-4 text-[#F5F5F5]">
           Welcome
         </h3>
         <h1 className="text-2xl md:text-[40px] lg:text-[72px] font-bold text-white mb-5"><span className="mr-3">I'm</span>
