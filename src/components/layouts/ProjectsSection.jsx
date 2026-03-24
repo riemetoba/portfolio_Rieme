@@ -171,7 +171,7 @@ const ProjectsSection = () => {
 
               {/* Category Badge */}
               <div className="absolute top-5 left-5 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full text-xs font-bold text-[#090A0C] uppercase tracking-wide shadow-sm z-20">
-                Bootstrap
+                Tailwind
               </div>
 
               {/* Hover Overlay Buttons */}

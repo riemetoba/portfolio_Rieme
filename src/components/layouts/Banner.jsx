@@ -5,10 +5,7 @@ const Banner = () => {
     <section className="relative h-screen w-full flex items-center justify-center overflow-hidden font-sans">
       {/* Bg and overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url('/src/assets/banner.jpg')`,
-        }}
+        className="absolute bg-[url('/src/assets/banner.jpg')] inset-0 bg-cover bg-center bg-no-repeat"
       >
         <div className="absolute inset-0 bg-black/65"></div>
       </div>
