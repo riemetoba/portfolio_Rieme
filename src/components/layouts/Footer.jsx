@@ -15,8 +15,8 @@ const Footer = () => {
           {/* Title text  */}
       <div className="relative py-10 text-center overflow-hidden">
         <h1
-          className="absolute bottom-8 inset-0 flex items-center justify-center 
-                       text-8xl md:text-9xl font-bold text-[#E5E4E2] 
+          className="absolute bottom-3 inset-0 flex items-center justify-center 
+                       text-8xl md:text-9xl font-bold text-[#DADADA] 
                        opacity-40"
         >
           CONTACT

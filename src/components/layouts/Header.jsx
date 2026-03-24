@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { FaXTwitter, FaFacebookF } from "react-icons/fa6";
+import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,6 @@ const Header = () => {
     { name: "About Me", href: "#about" },
     { name: "Services", href: "#services" },
     { name: "Portfolio", href: "#portfolio" },
-    { name: "Blog", href: "#blog" },
     { name: "Contact", href: "#contact" },
   ];
   useEffect(() => {
@@ -48,9 +47,16 @@ const Header = () => {
             </li>
           ))}
         </ul>
-        <div className="hidden sm:flex gap-x-4 items-center text-lg text-white">
-          <FaXTwitter className="hover:text-green duration-300 cursor-pointer" />
-          <FaFacebookF className="hover:text-green duration-300 cursor-pointer" />
+        <div className="hidden sm:flex gap-x-4 items-center text-2xl text-white">
+          <a href="https://github.com/riemetoba">
+            <FaGithub className="hover:text-green duration-300 cursor-pointer" />
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100016533453052">
+            <FaFacebook className="hover:text-green duration-300 cursor-pointer" />
+          </a>
+          <a href="https://www.linkedin.com/in/rieme-hasan-291767398">
+            <FaLinkedin className="hover:text-green duration-300 cursor-pointer" />
+          </a>
         </div>
 
         {/* Mobile button */}
@@ -58,7 +64,11 @@ const Header = () => {
           onClick={() => setIsOpen(!isOpen)}
           className="sm:hidden text-2xl px-2"
         >
-          {isOpen ? <IoMdClose className="text-white"/> : <GiHamburgerMenu className="text-white"/>}
+          {isOpen ? (
+            <IoMdClose className="text-white" />
+          ) : (
+            <GiHamburgerMenu className="text-white" />
+          )}
         </button>
       </div>
 
@@ -80,9 +90,16 @@ const Header = () => {
               </a>
             </li>
           ))}
-          <div className="flex gap-x-4 items-center text-lg mt-5">
-            <FaXTwitter className="hover:text-green duration-300 cursor-pointer" />
-            <FaFacebookF className="hover:text-green duration-300 cursor-pointer" />
+          <div className="flex gap-x-4 items-center text-2xl mt-5">
+           <a href="https://github.com/riemetoba">
+            <FaGithub className="hover:text-green duration-300 cursor-pointer" />
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100016533453052">
+            <FaFacebook className="hover:text-green duration-300 cursor-pointer" />
+          </a>
+          <a href="https://www.linkedin.com/in/rieme-hasan-291767398">
+            <FaLinkedin className="hover:text-green duration-300 cursor-pointer" />
+          </a>
           </div>
         </ul>
       </div>
