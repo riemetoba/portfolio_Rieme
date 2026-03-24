@@ -96,7 +96,7 @@ const ProjectsSection = () => {
           </div>
           {/* ================= Project 1 End ================= */}
           {/* ================= Project 2 Start ================= */}
-          <div className="group bg-white rounded-3xl  border-gray-300 border overflow-hidden transition-all duration-500 hover:shadow-[0_20px_50px_rgba(0,0,0,0.1)] hover:-translate-y-2">
+          <div className="group rounded-3xl  border-gray-300 border overflow-hidden transition-all duration-500 hover:shadow-[0_20px_50px_rgba(0,0,0,0.1)] hover:-translate-y-2">
             {/* Image Container */}
             <div className="relative h-70 overflow-hidden">
               <Image
