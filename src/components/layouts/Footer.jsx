@@ -37,10 +37,10 @@ const Footer = () => {
       {/* Title text  */}
           <div
             className={
-              "flex flex-col lg:flex-row lg:justify-between lg:items-start px-5 lg:px-0 lg:mt-8"
+              "flex flex-col md:flex-row md:justify-between md:items-start px-5 md:px-0 md:mt-8"
             }
           >
-            <div className="bg-[#ffffff] w-full lg:w-190 h-auto lg:h-90.5 px-10 lg:px-6 py-5 drop-shadow-xl/40">
+            <div className="bg-[#ffffff] w-full md:w-190 h-auto md:h-90.5 px-4 md:px-6 py-5 drop-shadow-xl/40">
               <p className="uppercase text-[12px] text-[#090A0C] font-bold">
                 say something
               </p>
@@ -66,7 +66,7 @@ const Footer = () => {
                 placeholder="Your Message *"
                 className="border-b outline-none border-b-[#CCCCCC] hover:border-b-org duration-300 w-full mt-10 lg:mt-15"
               />
-              <button className=" mt-8 bg-green hover:bg-[#29AB87] text-lg text-white font-medium px-9 py-3 rounded-full shadow-md transition duration-300 cursor-pointer">
+              <button className="mt-8 bg-green hover:bg-[#29AB87] text-lg text-white font-medium px-9 py-3 rounded-full shadow-md transition duration-300 cursor-pointer">
                 Send Message
               </button>
             </div>
