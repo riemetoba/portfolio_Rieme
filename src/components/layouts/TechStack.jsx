@@ -73,7 +73,7 @@ const TechStack = () => {
       <div className="relative py-10 text-center overflow-hidden mb-10">
         <h1
           className="absolute bottom-3 inset-0 flex items-center justify-center 
-                       text-8xl md:text-9xl font-bold text-[#DADADA] 
+                       text-5xl md:text-9xl font-bold text-[#DADADA] 
                        opacity-40"
         >
           TECH STACK
