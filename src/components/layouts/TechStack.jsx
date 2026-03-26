@@ -65,16 +65,15 @@ const TechStack = () => {
   ];
 
   return (
-    <section className="py-24 bg-gray" id="tech-stack">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-24 bg-gray px-4 md:px-0" id="tech-stack">
+      <div className="container max-w-5xl mx-auto sm:px-6 lg:px-8">
        
         
         {/* Title text  */}
       <div className="relative py-10 text-center overflow-hidden mb-10">
         <h1
           className="absolute bottom-3 inset-0 flex items-center justify-center 
-                       text-5xl md:text-9xl font-bold text-[#DADADA] 
-                       opacity-40"
+                       text-5xl md:text-9xl font-bold text-[#DADADA]/40"
         >
           TECH STACK
         </h1>

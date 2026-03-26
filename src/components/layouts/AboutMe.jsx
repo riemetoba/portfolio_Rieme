@@ -22,9 +22,9 @@ const AboutMe = () => {
       </div>
       {/* Title text  */}
       {/* Content part  */}
-      <div className="flex items-start py-15 gap-x-10">
-        <div className="w-[60%]">
-          <h3 className="text-3xl font-semibold mb-6">
+      <div className="flex flex-col px-5 gap-y-15 lg:gap-y-0 md:px-0 md:flex-row lg:items-start py-15 lg:gap-x-10">
+        <div className="md:w-[60%] w-full">
+          <h3 className="md:text-3xl text-[26px] font-semibold mb-6">
             I'm <span className="text-green">Rieme Hasan,</span> a Front-End
             Developer
           </h3>
@@ -36,7 +36,7 @@ const AboutMe = () => {
             I deliver projects on time while meeting both user needs and business goals. From simple pages to complex apps, I turn ideas into functional and engaging digital experiences.
           </p>
         </div>
-        <div className="w-[40%]">
+        <div className="md:w-[40%] w-full">
         {/* Name */}
       <div className="py-3 border-b border-gray-300">
         <span className="font-semibold text-gray-800">Name:</span>

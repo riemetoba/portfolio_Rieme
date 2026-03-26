@@ -1,5 +1,8 @@
 import { SlLocationPin } from "react-icons/sl";
-import { TfiMobile, TfiEmail } from "react-icons/tfi";
+import { TfiMobile } from "react-icons/tfi";
+import { RiMailLine } from "react-icons/ri";
+
+
 import {
   FaGithub,
   FaFacebook,
@@ -16,8 +19,7 @@ const Footer = () => {
       <div className="relative py-10 text-center overflow-hidden mb-5">
         <h1
           className="absolute bottom-3 inset-0 flex items-center justify-center 
-                       text-5xl md:text-9xl font-bold text-[#DADADA] 
-                       opacity-40"
+                       text-5xl md:text-9xl font-bold text-[#DADADA]/40"
         >
           CONTACT
         </h1>
@@ -38,7 +40,7 @@ const Footer = () => {
               "flex flex-col lg:flex-row lg:justify-between lg:items-start px-5 lg:px-0 lg:mt-8"
             }
           >
-            <div className="bg-[#ffffff] w-full lg:w-190 h-auto lg:h-90.5 px-10 lg:px-6 py-5 drop-shadow-xl/50">
+            <div className="bg-[#ffffff] w-full lg:w-190 h-auto lg:h-90.5 px-10 lg:px-6 py-5 drop-shadow-xl/40">
               <p className="uppercase text-[12px] text-[#090A0C] font-bold">
                 say something
               </p>
@@ -69,7 +71,7 @@ const Footer = () => {
               </button>
             </div>
             <div className="flex items-start flex-col gap-y-7 py-8 lg:py-0">
-              <div className="w-full lg:w-92 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
+              <div className="w-full lg:w-92 h-25.5 bg-white flex items-center gap-x-5 py-5 px-4 drop-shadow-xl/40 ">
                   <SlLocationPin className="text-green text-2xl" />
                 <div className="">
                   <h5 className="text-base font-medium">My Address</h5>
@@ -78,7 +80,7 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-full lg:w-92 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
+              <div className="w-full lg:w-92 h-25.5 bg-white flex items-center gap-x-5 py-5 px-4 drop-shadow-xl/40 ">
                   <TfiMobile className="text-green text-2xl" />
                 <div className="">
                   <h5 className="text-base font-medium">My Phone</h5>
@@ -87,8 +89,8 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-full lg:w-92 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
-                  <TfiEmail className="text-green text-[22px]" />
+              <div className="w-full lg:w-92 h-25.5 bg-white flex items-center gap-x-5 py-5 px-4 drop-shadow-xl/40 ">
+                  <RiMailLine className="text-green text-2xl" />
                 <div className="">
                   <h5 className="text-base font-medium">My Email</h5>
                   <p className="text-sm text-[#555A64]">
@@ -96,6 +98,7 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
+              
              
             </div>
           </div>
