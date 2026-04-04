@@ -37,36 +37,42 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="md:w-[40%] w-full">
-        {/* Name */}
-      <div className="py-3 border-b border-gray-300">
-        <span className="font-semibold text-gray-800">Name:</span>
-        <span className="text-gray-600 ml-2">Rieme Hasan</span>
-      </div>
+          {/* Name */}
+          <div className="py-3 border-b border-gray-300">
+            <span className="font-semibold text-gray-800">Name:</span>
+            <span className="text-gray-600 ml-2">Rieme Hasan</span>
+          </div>
 
-      {/* Email */}
-      <div className="py-3 border-b border-gray-300">
-        <span className="font-semibold text-gray-800">Email:</span>
-        <span className="text-green ml-2">riemehasan06@gmail.com</span>
-      </div>
+          {/* Email */}
+          <div className="py-3 border-b border-gray-300">
+            <span className="font-semibold text-gray-800">Email:</span>
+            <span className="text-green ml-2">riemehasan06@gmail.com</span>
+          </div>
 
-      {/* Age */}
-      <div className="py-3 border-b border-gray-300">
-        <span className="font-semibold text-gray-800">Age:</span>
-        <span className="text-gray-600 ml-2">28</span>
-      </div>
+          {/* Age */}
+          <div className="py-3 border-b border-gray-300">
+            <span className="font-semibold text-gray-800">Age:</span>
+            <span className="text-gray-600 ml-2">28</span>
+          </div>
 
-      {/* From */}
-      <div className="py-3">
-        <span className="font-semibold text-gray-800">From:</span>
-        <span className="text-gray-600 ml-2">Dhaka, Bangladesh</span>
-      </div>
+          {/* From */}
+          <div className="py-3">
+            <span className="font-semibold text-gray-800">From:</span>
+            <span className="text-gray-600 ml-2">Dhaka, Bangladesh</span>
+          </div>
 
-      {/* Button */}
-      <div className="mt-6">
-        <button className="bg-green hover:bg-[#29AB87] text-lg text-white font-medium px-9 py-3 rounded-full shadow-md transition duration-300 cursor-pointer">
-          Download CV
-        </button>
-      </div>
+          {/* Button */}
+          <div className="mt-6">
+            <a
+              href="/resume-Rieme.pdf"
+              download="resume-Rieme.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block bg-green hover:bg-[#29AB87] text-lg text-white font-medium px-9 py-3 rounded-full shadow-md transition duration-300 cursor-pointer"
+            >
+              Download CV
+            </a>
+          </div>
         </div>
       </div>
     </section>
